@@ -1,0 +1,61 @@
+package com.selenium.demo;
+
+public class Student {
+	
+	private String studentName;
+	private int elaScore;
+	private int algebraScore;
+	private int physicsScore;
+	private int artsScore;
+	
+	private int totalScore;
+	private float gpa;
+	
+	
+	public String getStudentName() {
+		return studentName;
+	}
+	public void setStudentName(String studentName) {
+		this.studentName = studentName;
+	}
+	public int getElaScore() {
+		return elaScore;
+	}
+	public void setElaScore(int elaScore) {
+		this.elaScore = elaScore;
+	}
+	public int getAlgebraScore() {
+		return algebraScore;
+	}
+	public void setAlgebraScore(int algebraScore) {
+		this.algebraScore = algebraScore;
+	}
+	public int getPhysicsScore() {
+		return physicsScore;
+	}
+	public void setPhysicsScore(int physicsScore) {
+		this.physicsScore = physicsScore;
+	}
+	public int getArtsScore() {
+		return artsScore;
+	}
+	public void setArtsScore(int artsScore) {
+		this.artsScore = artsScore;
+	}
+	public int getTotalScore() {
+		return totalScore;
+	}
+	public void setTotalScore(int totalScore) {
+		this.totalScore = totalScore;
+	}
+	public float getGpa() {
+		return gpa;
+	}
+	public void setGpa(float gpa) {
+		this.gpa = gpa;
+	}
+	
+	
+	
+
+}

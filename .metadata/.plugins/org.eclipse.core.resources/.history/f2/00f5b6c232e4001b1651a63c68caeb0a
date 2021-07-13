@@ -1,0 +1,19 @@
+package com.selenium.demo;
+
+public class StudentAdmin {
+	
+	public static void main(String s[]) {
+		
+		System.out.print("I am in Main Method");
+		
+		StudentScore s1= new StudentScore();
+		s1.setStudentName("Nila");
+		s1.setElaScore(100);
+		s1.setAlgbrScore(99);
+		s1.setArtsScore(95);
+		
+		
+		
+	}
+
+}

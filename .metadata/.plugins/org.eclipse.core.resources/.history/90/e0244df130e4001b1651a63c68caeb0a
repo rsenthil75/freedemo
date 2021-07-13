@@ -1,0 +1,14 @@
+package com.selenium.demo;
+
+public class StudentScore {
+	
+	private String studentName;
+	private int elaScore;
+	private int algbrScore;
+	private int artsScore;
+	
+	private int totalScore;
+	private float avgScore;
+	
+
+}

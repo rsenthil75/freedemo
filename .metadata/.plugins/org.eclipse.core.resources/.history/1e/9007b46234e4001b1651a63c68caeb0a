@@ -19,7 +19,7 @@ public class StudentAdmin {
 		System.out.println("Total Score of Student1 ="+s1.getTotalScore());
 		
 		s1.calculateAvgScore();
-		System.out.println("Average Score of Student1 ="+s1.getAvgScore());
+		System.out.println("Total Score of Student1 ="+s1.getAvgScore());
 		
 		
 	}

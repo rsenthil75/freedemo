@@ -1,0 +1,20 @@
+package com.selenium.demo;
+
+public class FirstObjectDemo {
+	
+	int a,b;
+	String myName;
+	
+
+	public static void main(String[] args) {
+		
+		FirstObjectDemo demo1 = new FirstObjectDemo();
+		String name = demo1.getMyName("Demo1");
+		
+		FirstObjectDemo demo2 = new FirstObjectDemo();
+		
+		
+
+	}
+
+}

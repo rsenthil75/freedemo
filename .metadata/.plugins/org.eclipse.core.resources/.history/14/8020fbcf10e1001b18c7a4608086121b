@@ -1,0 +1,13 @@
+package com.selenium.demo;
+
+public class SeleniumWebDriver {
+
+	public static void main(String[] args) {
+		
+		System.setProperty("webdriver.chrome.driver", "/Users/Senthil/dev_downloads/chromedriver");
+		
+		WebDriver driver =new ChromeDriver();
+
+	}
+
+}

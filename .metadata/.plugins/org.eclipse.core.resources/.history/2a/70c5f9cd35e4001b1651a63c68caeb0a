@@ -27,8 +27,6 @@ public class SeleniumWebDriver {
 	    driver.findElement(By.linkText("Images")).click();
 	    // 7 | click | css=.islrc > .isv-r:nth-child(1) .rg_i | 
 	    driver.findElement(By.cssSelector(".islrc > .isv-r:nth-child(1) .rg_i")).click();
-	    
-	    driver.close();
 
 	}
 

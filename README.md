@@ -1,5 +1,5 @@
-#freedemo
-git clone https://github.com/rsenthil75/freedemo.git
-git add .
-git commit -m "adding a new test.java"
+#freedemo <br>
+git clone https://github.com/rsenthil75/freedemo.git <br>
+git add . <br>
+git commit -m "commit desc" <br>
 git push origin main

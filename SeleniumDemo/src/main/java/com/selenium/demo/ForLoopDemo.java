@@ -21,16 +21,16 @@ public class ForLoopDemo {
 
 
 		List<String> names = new ArrayList<>();
-		names.add("Priya");
-		names.add("Sumathy");
-		names.add("Dhanabal");
-		names.add("Kokila");
+		names.add("John");
+		names.add("Vetri");
+		names.add("Raja");
+		names.add("Kannan");
 
 
 		for (String s : names) {
 			System.out.println(s);
 
-			if (s.equalsIgnoreCase("priya")) {
+			if (s.equalsIgnoreCase("john")) {
 				System.out.println(s + " found");
 				break;
 			}

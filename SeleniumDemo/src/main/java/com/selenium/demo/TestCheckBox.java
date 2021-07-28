@@ -12,12 +12,12 @@ public class TestCheckBox {
 		WebDriver driver = new ChromeDriver();
 		driver.get(
 				"file:///Users/Senthil/dev/freedemo/SeleniumDemo/src/main/WebApp/WebAppForTest.html");
-		
+
 		WebElement chkbx = driver.findElement(By.id("rkwd"));
 		chkbx.click();
-		
+
 		System.out.println(chkbx.isSelected());
-		
+
 
 	}
 

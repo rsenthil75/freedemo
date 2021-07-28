@@ -14,8 +14,8 @@ public class DriverDemoRadioButton {
 		WebDriver driver = new ChromeDriver();
 		driver.get(
 				"file:///Users/Senthil/dev/freedemo/SeleniumDemo/src/main/WebApp/RadioButtonDemo.html");
-		
-		
+
+
 
 		List<WebElement> radioButtons = driver.findElements(By.name("color"));
 
@@ -25,11 +25,11 @@ public class DriverDemoRadioButton {
 
 			if (rb.isSelected()) {
 				System.out.println(rb.getAttribute("value"));
-				break;	
+				break;
 			}
-				
+
 		}
-		
+
 		driver.close();
 
 	}

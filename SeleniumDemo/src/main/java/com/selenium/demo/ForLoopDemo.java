@@ -5,6 +5,9 @@ import java.util.List;
 
 public class ForLoopDemo {
 
+	/**
+	 * @param args
+	 */
 	public static void main(String[] args) {
 
 		for (int i = 0; i <= 10; i++) {
@@ -13,21 +16,21 @@ public class ForLoopDemo {
 
 		}
 		System.out.println("End of First For loop");
-		
-		
-		
 
-		List<String> names = new ArrayList<String>();
-		names.add("Priya");
-		names.add("Sumathy");
-		names.add("Dhanabal");
-		names.add("Kokila");
-		
+
+
+
+		List<String> names = new ArrayList<>();
+		names.add("John");
+		names.add("Vetri");
+		names.add("Raja");
+		names.add("Kannan");
+
 
 		for (String s : names) {
 			System.out.println(s);
-			
-			if (s.equalsIgnoreCase("priya")) {
+
+			if (s.equalsIgnoreCase("john")) {
 				System.out.println(s + " found");
 				break;
 			}

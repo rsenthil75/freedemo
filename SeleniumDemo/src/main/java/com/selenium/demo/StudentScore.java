@@ -61,16 +61,16 @@ public class StudentScore {
 	public int getCalaculatedTotalScore() {
 		//this.totalScore = this.elaScore+this.algbrScore+this.artsScore;
 		totalScore = elaScore+algbrScore+artsScore;
-		
+
 		return totalScore;
 	}
 
 	public float calculateAvgScore() {
 		this.avgScore = this.totalScore/3;
-		
+
 		return this.avgScore;
 	}
 
-	
+
 
 }

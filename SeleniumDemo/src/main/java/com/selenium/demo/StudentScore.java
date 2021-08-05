@@ -10,7 +10,6 @@ public class StudentScore {
 	private int totalScore;
 	private float avgScore;
 	private int twoSubTot;
-	
 
 	public String getStudentName() {
 		return studentName;
@@ -61,20 +60,20 @@ public class StudentScore {
 	}
 
 	public int getCalaculatedTotalScore() {
-		//this.totalScore = this.elaScore+this.algbrScore+this.artsScore;
-		totalScore = elaScore+algbrScore+artsScore;
-		
+		// this.totalScore = this.elaScore+this.algbrScore+this.artsScore;
+		totalScore = elaScore + algbrScore + artsScore;
+
 		return totalScore;
 	}
 
 	public float calculateAvgScore() {
-		this.avgScore = this.totalScore/3;
-		
+		this.avgScore = this.totalScore / 3;
+
 		return this.avgScore;
 	}
 
 	public int calculateTwoSubTot() {
-		twoSubTot = totalScore-artsScore;
+		twoSubTot = totalScore - artsScore;
 		return twoSubTot;
 	}
 
@@ -84,10 +83,6 @@ public class StudentScore {
 
 	public void setTwoSubTot(int twoSubTot) {
 		this.twoSubTot = twoSubTot;
+
 	}
-		
-	}
-
-	
-
-
+}

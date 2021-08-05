@@ -10,11 +10,17 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class DriverDemoRadioButton {
 
 	public static void main(String[] args) {
-		System.setProperty("webdriver.chrome.driver", "C:/Selenium/ChromeDriver/chromedriver.exe");
+
+		System.setProperty("webdriver.chrome.driver", "/Users/java/dev/tools/chromedriver");
+		
+		
 		WebDriver driver = new ChromeDriver();
 		driver.get(
-				//"file:C:\\Selenium\\freedemo\\SeleniumDemo\\src\\main\\WebApp.html");
-				"file:C:/Selenium/freedemo/SeleniumDemo/src/main/WebApp/RadioButtonDemo.html"); 
+				"file:///Users/java/dev/freedemo/SeleniumDemo/src/main/WebApp/RadioButtonDemo.html");
+
+
+
+
 		List<WebElement> radioButtons = driver.findElements(By.name("color"));
 		
 
@@ -25,11 +31,11 @@ public class DriverDemoRadioButton {
 
 			if (rb.isSelected()) {
 				System.out.println(rb.getAttribute("value"));
-				break;	
+				break;
 			}
-				
+
 		}
-		
+
 		driver.close();
 		
 

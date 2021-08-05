@@ -20,8 +20,9 @@ public class StudentAdmin {
 		
 		s1.calculateAvgScore();
 		System.out.println("Average Score of Student1 ="+s1.getAvgScore());
+		s1.calculateTwoSubTot();
+		System.out.println("Total of Two Subjects =" +s1.gettwoSubTot());
 		
-		
-	}
+			}
 
 }

@@ -9,6 +9,8 @@ public class StudentScore {
 
 	private int totalScore;
 	private float avgScore;
+	private int twoSubTot;
+	
 
 	public String getStudentName() {
 		return studentName;
@@ -71,6 +73,21 @@ public class StudentScore {
 		return this.avgScore;
 	}
 
+	public int calculateTwoSubTot() {
+		twoSubTot = totalScore-artsScore;
+		return twoSubTot;
+	}
+
+	public int gettwoSubTot() {
+		return twoSubTot;
+	}
+
+	public void setTwoSubTot(int twoSubTot) {
+		this.twoSubTot = twoSubTot;
+	}
+		
+	}
+
 	
 
-}
+

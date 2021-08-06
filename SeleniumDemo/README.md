@@ -8,18 +8,16 @@
 	
 ## Steps to install HomeBrew and ChromeDriver on Mac
 
+Steps:
+
 	*1. Install HomeBrew
 	
-	Command:
-	
-	```
+```
 	/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-	```
+```
 	
 	*2. Install ChromeDriver
 	
-	Command:
-	
-	```
+```
 	brew install -cask chromedriver
-	```
+```

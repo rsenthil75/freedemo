@@ -1,4 +1,4 @@
-# Docs
+# Notes
 
 ## Steps to Clone and Configure Project in Eclipse
 

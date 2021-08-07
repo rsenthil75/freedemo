@@ -20,6 +20,7 @@ public class FirstObjectDemo {
 		System.out.println("My Name is "+nameDemo2);
 		int sum2 = demo2.getSum(50,15);
 		System.out.println("Sum of 50 and 15="+sum2);
+		
 	}
 
 

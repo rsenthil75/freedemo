@@ -12,7 +12,7 @@ public class SeleniumWebDriver {
 		
 
 		//System.setProperty("webdriver.chrome.driver", "C:/Selenium/ChromeDriver");
-		System.setProperty("webdriver.chrome.driver", "C:/Selenium/ChromeDriver/chromedriver.exe");
+		//System.setProperty("webdriver.chrome.driver", "C:/Selenium/ChromeDriver/chromedriver.exe");
 
 		WebDriver driver = new ChromeDriver();
 

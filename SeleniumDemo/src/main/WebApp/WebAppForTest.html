@@ -7,38 +7,91 @@
 <body>
 	<form>
 
-		<input type="checkbox" id="prky" value="parkway">Parkway
-		School District<br> <input type="checkbox" id="rkwd"
-			value="rockwood">Rockwood School District<br> <input
-			type="checkbox" id="frsmwlt" value="fortsamwalt">Fort Samwalt<br>
-		<input type="checkbox" id="prvt" value="private">Private<br>
+		<b>Check Box demo</b> <br> <input type="checkbox" id="prky"
+			value="parkway">Parkway School District<br> <input
+			type="checkbox" id="rkwd" value="rockwood">Rockwood School
+		District<br> <input type="checkbox" id="frsmwlt"
+			value="fortsamwalt">Fort Samwalt<br> <input
+			type="checkbox" id="prvt" value="private">Private<br>
 
-		<br> <br> <br> Select a city from the below list: <br>
-		<select id="selectTest1">
-			<option value="Chicago">Chicago <br>
-			<option value="St_Louis">St Louis <br>
-			<option value="Newyork">New York<br>
-			<option value="Detroit">Detroit<br>
-		</select>
-		
-		<br> <br> <br> Select a city from the below list: <br>
+		-------------------------------------------------------------<br>
+
+		<b>Select option Demo</b><br> <br> <br> <br>
+		<!--//*[@id="selectTest1"]-->
+		Select a city from the below list: <br> <select id="selectTest1">
+			<option value="Chicago">Chicago
+			<option value="St_Louis">St Louis
+			<option value="Newyork">New York
+			<option value="Detroit">Detroit
+				-------------------------------------------------------------<br>
+		</select> <br> <br> <br> Select a city from the below list: <br>
 		<select id="selectTest2">
-			<option value="Chennai">Chennai <br>
-			<option value="Madurai">Madurai <br>
-			<option value="Trichy">Trichy<br>
-			<option value="Erode">Erode<br>
-		</select>
-		
-		<br> <br> <br> Select a city from the below list: <br>
+			<option value="Chennai">Chennai
+			<option value="Madurai">Madurai
+			<option value="Trichy">Trichy
+			<option value="Erode">Erode
+				-------------------------------------------------------------<br>
+		</select> <br> <br> <br> Select an Option from the list: <br>
 		<select id="selectTest3">
-			<option value="Yes">Yes <br>
-			<option value="No">No <br>
-			<option value="Dontknow">Don't know<br>
-			<option value="MayBe">Maybe<br>
-		</select>
+			<option value="Yes">Yes
+			<option value="No">No
+			<option value="Dontknow">Don't know
+			<option value="MayBe">Maybe
+		</select> <br>
+		-------------------------------------------------------------<br>
+		<br>
+		<br> <b> Table Demo </b> <br>
+		<br>
+
+		<table border=1>
+
+			<tr>
+				<td><b> Row1, Data 0</b></td>
+				<td><b>Row1, Data 1</b></td>
+			</tr>
+
+			<tr>
+				<td>Row2, Data 0</td>
+				<td>Row2, Data 1</td>
+			</tr>
+
+
+			<tr>
+			<!--/html/body/form/table/tbody/tr[3]/td[1]-->
+				<td>Row3, Data 0</td>
+				
+				<td>Row3, Data 1</td>
+			</tr>
 
 
 
+		</table>
+
+-------------------------------------------------------------<br>
+		<br>
+		<b>Text and Button demo</b> <br><br>
+		
+		<label for="fanme"> First name: </label>
+		<input type="text" name="fname" id="fname"> <br>
+		
+		<label for="lanme"> Last name: </label>
+		<input type="text" name="lname" id="lname"> <br>
+		
+		<input type="button" id="btn1" value="OK">
+		
+		<input type="button" id="btn2" value="Cancel" onclick="alertMe()">
+		
+		
+		<script>
+		function alertMe(){
+			alert("Cancel Event is invoked");
+			
+		}
+		
+		</script>
+		
+		
+		
 	</form>
 
 </body>

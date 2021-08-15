@@ -8,11 +8,11 @@ import org.openqa.selenium.support.ui.Select;
 
 public class TestSelectOption {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws InterruptedException {
 		
 		WebDriver driver = new ChromeDriver();
-		driver.get("file:///Users/java/dev/freedemo/SeleniumDemo/src/main/WebApp/WebAppForTest.html");
-
+		//driver.get("file:///Users/java/dev/freedemo/SeleniumDemo/src/main/WebApp/WebAppForTest.html");
+		driver.get("file:///C:/Selenium/freedemo/SeleniumDemo/src/main/WebApp/WebAppForTest.html");
 		WebElement optionSelect = driver.findElement(By.id("selectTest1"));
 
 		Select slct = new Select(optionSelect);
@@ -20,6 +20,7 @@ public class TestSelectOption {
 
 		System.out.println(slct.getFirstSelectedOption().getText());
 
+		Thread.sleep(5000);
 		driver.close();
 
 	}

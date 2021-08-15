@@ -8,11 +8,11 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public class TextAndButtonOperation {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws InterruptedException {
 
 		WebDriver driver = new ChromeDriver();
-		driver.get("file:///Users/java/dev/freedemo/SeleniumDemo/src/main/WebApp/WebAppForTest.html");
-
+		//driver.get("file:///Users/java/dev/freedemo/SeleniumDemo/src/main/WebApp/WebAppForTest.html");
+		driver.get("file:///C:/Selenium/freedemo/SeleniumDemo/src/main/WebApp/WebAppForTest.html");
 		WebElement fName = driver.findElement(By.id("fname"));
 		fName.sendKeys("Test First Name");
 
@@ -30,7 +30,7 @@ public class TextAndButtonOperation {
 		System.out.println("Alert Text="+alert.getText());
 		alert.accept();
 		System.out.println("Alert Accepted");
-
+		Thread.sleep(5000);
 		driver.close();
 
 	}

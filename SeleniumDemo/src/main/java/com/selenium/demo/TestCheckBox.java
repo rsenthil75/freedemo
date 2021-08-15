@@ -10,11 +10,11 @@ public class TestCheckBox {
 	public static void main(String[] args) {
 
 		WebDriver driver = new ChromeDriver();
-		//System.setProperty("webdriver.chrome.driver", "C:/Selenium/ChromeDriver/chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:/Selenium/ChromeDriver/chromedriver.exe");
 
-		driver.get(
-				"file:///Users/java/dev/freedemo/SeleniumDemo/src/main/WebApp/WebAppForTest.html");
-
+		//driver.get(
+			//	"file:///Users/java/dev/freedemo/SeleniumDemo/src/main/WebApp/WebAppForTest.html");
+		driver.get("file:///C:/Selenium/freedemo/SeleniumDemo/src/main/WebApp/WebAppForTest.html");
 		WebElement chkbx = driver.findElement(By.id("rkwd"));
 		chkbx.click();
 

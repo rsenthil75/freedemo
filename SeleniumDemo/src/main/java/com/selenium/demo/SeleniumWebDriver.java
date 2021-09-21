@@ -8,7 +8,8 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class SeleniumWebDriver {
 
 	public static void main(String[] args) {
-
+	
+		System.out.println("In Main Method");
 		
 		WebDriver driver = new ChromeDriver();
 
